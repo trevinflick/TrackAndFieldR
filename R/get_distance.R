@@ -35,6 +35,8 @@ get_distance <- function(event = "10k", gender = "women", year = 2018) {
     event = "3000-metres"
   } else if (event == "steeple") {
     event = "3000-metres-steeplechase"
+  } else if (event == "1500") {
+    event = "1500-metres"
   } else {
     stop('Please provide a valid event.')
   }
